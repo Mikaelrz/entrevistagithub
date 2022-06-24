@@ -1,0 +1,114 @@
+header{
+    width:100%;
+    height: 50px;
+    /*background-color: #000000;*/
+    background: rgb(56, 37, 17);
+background: linear-gradient(0deg, rgb(21, 15, 9) 15%, rgb(18, 13, 11) 100%); 
+}
+
+main{
+    margin-top: 10px;
+}
+header #logo{
+    text-align: center;
+    padding-top:5px;
+}
+
+/*pai*/
+#menu-lateral{
+   
+    width:159px;
+    float: left;
+    
+}
+/*filho*/
+/*
+nav{
+   
+  
+}*/
+/*neto*/
+
+/*bisneto*/
+nav ul li{   
+    text-transform:uppercase;
+    list-style-type: none;
+    padding-left: 10px;
+}
+/*tataraneto*/
+nav ul li a{
+   
+    text-decoration: none;
+    color: #000000;
+}
+nav ul li a:hover{
+   
+    text-decoration: none;
+    color:#f64d27;
+    font-weight: bold;
+}
+
+#menu-lateral nav ul li{
+    padding-top: 4px;
+    font-size:10px;
+}
+
+
+#comandos{
+    background-color: blueviolet;
+}
+
+#texto-rodape{
+   margin-top: 10px;
+   text-align: center;  
+   background: rgb(14, 11, 8);
+background: linear-gradient(0deg, rgb(9, 8, 6) 15%, rgb(11, 9, 9) 100%); 
+   color:#ffffff;
+   font-size:12px;
+   height: 25px;
+    
+}
+
+#area-principal{
+
+     width:1010px;
+    /* border:2px solid lightcoral;*/
+     height:600px;
+     margin-left:200px;
+     
+   
+}
+
+footer{
+    margin-top: 10px;    
+}
+
+
+.postit-laranja{
+
+border:2px solid orange;
+
+}
+
+#draggable {
+width:75px;
+height: 75px;
+color: #000000;
+border:2px solid #000000;
+}
+
+.text-padrao{
+color: rgb(0, 4, 255);
+}
+
+.segundo{
+color: #ff0000;
+}
+
+.terceiro{
+color:#000000
+}
+
+.quarto{
+color:rgb(2, 126, 18)
+}
